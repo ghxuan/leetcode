@@ -11,3 +11,4 @@
  517   |  超级洗衣机 | [find-min-moves](https://github.com/ghxuan/leetcode/blob/master/py/find-min-moves.py) | [leetcode ： 超级洗衣机](/)
  885   |  螺旋矩阵 III | [spiral-matrixIII](https://github.com/ghxuan/leetcode/blob/master/py/spiral-matrixIII.py) | [leetcode ： 螺旋矩阵 III](/)
  902   |  最大为 N 的数字组合 | [at-most-n-given-digit-set](https://github.com/ghxuan/leetcode/blob/master/py/at-most-n-given-digit-set.py) | [leetcode ： 最大为 N 的数字组合](/)
+ 593   |  有效的正方形 | [valid-square](https://github.com/ghxuan/leetcode/blob/master/py/valid-square.py) | [leetcode ： 有效的正方形](/)
