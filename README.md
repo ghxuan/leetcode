@@ -2,6 +2,7 @@
 
 编号 | 题名 | 代码 | 博客
  :-: | :-: | :-: | :-: 
+<<<<<<< HEAD
  69   |  x 的平方根 | [my-sqrt](https://github.com/ghxuan/leetcode/blob/master/py/my-sqrt.py) | [leetcode ： x 的平方根](/)
  365   |  水壶问题 | [can-measure-water](https://github.com/ghxuan/leetcode/blob/master/py/can-measure-water.py) | [leetcode ： 水壶问题](/)
  168   |  Excel表列名称 | [convert-to-title](https://github.com/ghxuan/leetcode/blob/master/py/convert-to-title.py) | [leetcode ： Excel表列名称](/)
@@ -92,3 +93,5 @@
  149   |  直线上最多的点数 | [max-points](https://github.com/ghxuan/leetcode/blob/master/py/max-points.py) | [leetcode ： 直线上最多的点数](/)
  66   |  加一 | [plus-one](https://github.com/ghxuan/leetcode/blob/master/py/plus-one.py) | [leetcode ： 加一](/)
  812   |  最大三角形面积 |
+=======
+>>>>>>> b62585a94587cf635f657daec5be97ef0bfd8fa5
