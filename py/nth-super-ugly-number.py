@@ -1,5 +1,3 @@
-
-
 def nthSuperUglyNumber(n, primes):
     """
     :type n: int
@@ -51,4 +49,3 @@ print(nthSuperUglyNumber(12, [2, 7, 13, 19]))
 # all [1, 2, 4, 7, 8, 13, 14, 16, 19, 26, 28, 1]
 # all [1, 2, 4, 7, 8, 13, 14, 16, 19, 26, 28, 32]
 # 32
-    
