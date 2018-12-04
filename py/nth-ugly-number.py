@@ -1,5 +1,3 @@
-
-
 def nthUglyNumber(n):
     """
     :type n: int
@@ -23,5 +21,3 @@ def nthUglyNumber(n):
 print(nthUglyNumber(1))
 print(nthUglyNumber(10))
 print(nthUglyNumber(50))
-
-
