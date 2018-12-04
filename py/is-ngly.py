@@ -1,4 +1,3 @@
-
 def nthUgly(num):
     """
     :type num: int
@@ -31,4 +30,3 @@ print(nthUgly(2147483647))
 # True
 # True
 # False
-
