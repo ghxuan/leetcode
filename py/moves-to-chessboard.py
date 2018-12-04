@@ -1,5 +1,3 @@
-
-
 import random
 
 
@@ -128,4 +126,3 @@ print(movesToChessboard(List(
 # 1 0 1 0
 # ----------
 # 2
-
