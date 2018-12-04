@@ -1,6 +1,3 @@
-
-
-
 def number_of_arithmetic_slices(a):
     """
     :type a: List[int]
