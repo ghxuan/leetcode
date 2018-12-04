@@ -1,6 +1,3 @@
-
-
-
 def superPalindromesInRange(L, R):
     """
     :type L: str
@@ -51,4 +48,3 @@ print(superPalindromesInRange('0', '100000000'))
 # 4008004
 
 # 14
-
