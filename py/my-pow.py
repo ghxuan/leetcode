@@ -1,4 +1,3 @@
-
 def myPow(x, n):
     """
     :type x: float
