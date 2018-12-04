@@ -1,4 +1,3 @@
-
 def mirrorReflection(p, q):
     """
     :type p: int
