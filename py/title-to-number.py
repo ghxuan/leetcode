@@ -1,4 +1,3 @@
-
 def titleToNumber(s):
     """
     :type s: str
