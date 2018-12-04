@@ -1,4 +1,3 @@
-
 def missingNumber(nums):
     """
     :type nums: List[int]
