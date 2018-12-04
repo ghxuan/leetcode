@@ -1,4 +1,3 @@
-
 def optimalDivision(nums):
     """
     :type nums: List[int]
