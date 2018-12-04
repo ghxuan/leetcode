@@ -1,6 +1,3 @@
-
-
-
 def validSquare(p1, p2, p3, p4):
     """
     :type p1: List[int]
@@ -73,4 +70,3 @@ print(validSquare([900, -1], [900, 1], [901, 0], [899, 0]))
 # True
 # True
 # True
-
