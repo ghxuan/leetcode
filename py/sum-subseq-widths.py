@@ -1,4 +1,3 @@
-
 from itertools import combinations
 
 
@@ -26,12 +25,6 @@ print(sumSubseqWidths([2, 1]))
 # 1
 # {1: -3, 2: 0, 3: 3}
 # 6
-
-
-
-
-
-
 def sumSubseqWidths(A):
     """
     :type A: List[int]
@@ -68,4 +61,3 @@ print(sum_sub_seq_widths([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 # 1291
 # 3084
 # 7181
-
