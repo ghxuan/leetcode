@@ -1,4 +1,3 @@
-
 def checkSubarraySum(nums, k):
     """
     :type nums: List[int]
