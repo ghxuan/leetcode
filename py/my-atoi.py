@@ -1,6 +1,3 @@
-
-
-
 def myAtoi(str):
     """
     :type str: str
@@ -38,4 +35,3 @@ print(myAtoi(''))
 # 0
 # -2147483648
 # 0
-
