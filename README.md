@@ -1,5 +1,10 @@
 # Leetcode
 
+<style>
+tr nth-child(3) a{color:#000000;text-decoration:none;}
+</style>
+
+
  号 | 题名 | 代码 | 博客
  :-: | :-: | :-: | :-: 
  2   |  两数相加 | [add-two-numbers](https://github.com/ghxuan/leetcode/blob/master/py/add-two-numbers.py) | [leetcode ： 两数相加](/) 
