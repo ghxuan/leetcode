@@ -1,4 +1,3 @@
-
 def complex_number_multiply(a, b):
     """
     :type a: str
