@@ -1,4 +1,3 @@
-
 def bulb_switch(n):
     """
     :type n: int
