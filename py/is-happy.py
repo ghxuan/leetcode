@@ -1,4 +1,3 @@
-
 def isHappy(n):
     """
     :type n: int
