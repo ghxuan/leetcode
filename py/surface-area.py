@@ -1,5 +1,3 @@
-
-
 def surfaceArea(grid):
     """
     :type grid: List[List[int]]
@@ -35,4 +33,3 @@ print(surfaceArea([[2, 2, 2], [2, 1, 2], [2, 2, 2]]))
 # 20
 # 34
 # 46
-
