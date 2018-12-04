@@ -1,4 +1,3 @@
-
 def solveEquation(equation):
     """
     :type equation: str
