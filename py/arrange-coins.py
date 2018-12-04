@@ -1,4 +1,3 @@
-
 def arrange_coins(n):
     """
     :type n: int
