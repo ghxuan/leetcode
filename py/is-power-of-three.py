@@ -1,4 +1,3 @@
-
 def isPowerOfThree(n):
     """
     :type n: int
