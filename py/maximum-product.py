@@ -1,4 +1,3 @@
-
 def maximumProduct(nums):
     """
     :type nums: List[int]
