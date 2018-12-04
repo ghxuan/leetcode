@@ -58,4 +58,3 @@ class Fibonacci(object):
 fib = Fibonacci()
 for j in range(-1, 10):
     print(fib.fib(j), fib.fibonacci(j), fib.fibonacci_(j))
-
