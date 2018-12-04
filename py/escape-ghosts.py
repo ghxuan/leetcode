@@ -1,4 +1,3 @@
-
 def escapeGhosts(ghosts, target):
     """
     :type ghosts: List[List[int]]
