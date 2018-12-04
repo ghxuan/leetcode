@@ -1,5 +1,3 @@
-
-
 def superEggDrop(K, N):
     """
     :type K: int
@@ -29,4 +27,3 @@ print(superEggDrop(2, 50))
 # 3
 # 4
 # 10
-
