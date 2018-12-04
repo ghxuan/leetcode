@@ -1,4 +1,3 @@
-
 def numSquares(n):
     """
     :type n: int
