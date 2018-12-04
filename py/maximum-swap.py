@@ -1,4 +1,3 @@
-
 def maximumSwap(num):
     """
     :type num: int
