@@ -1,4 +1,3 @@
-
 def projectionArea(grid):
     """
     :type grid: List[List[int]]
