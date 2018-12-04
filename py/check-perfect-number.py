@@ -1,4 +1,3 @@
-
 def checkPerfectNumber(num):
     """
     :type num: int
