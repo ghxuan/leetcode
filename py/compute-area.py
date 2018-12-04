@@ -1,4 +1,3 @@
-
 def computeArea(A, B, C, D, E, F, G, H):
     """
     :type A: int
