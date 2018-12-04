@@ -1,7 +1,5 @@
-<style type="text/css">tr nth-child(3) a{color:#000000;text-decoration:none;}</style>
+~~<style type="text/css">tr nth-child(3) a{color:#000000;text-decoration:none;}</style>
 # Leetcode
-<img src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg" width="150" height="150" alt="图片加载失败时，显示这段字"/>
-
 
  号 | 题名 | 代码 | 博客
  :-: | :-: | :-: | :-: 
