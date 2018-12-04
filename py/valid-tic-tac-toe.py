@@ -1,5 +1,3 @@
-
-
 def validTicTacToe(board):
     """
     :type board: List[str]
@@ -46,4 +44,3 @@ print(validTicTacToe(['XOX', 'OXO', 'XOX']))
 # False
 # True
 # True
-
