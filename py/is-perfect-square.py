@@ -1,5 +1,3 @@
-
-
 def isPerfectSquare(num):
     """
     :type num: int
@@ -42,4 +40,3 @@ print(isPerfectSquare(3))
 # False
 # 3不是完全平方数，共计算0次。
 # False
-
