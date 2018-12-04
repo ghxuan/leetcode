@@ -1,4 +1,3 @@
-
 def hasGroupsSizeX(deck):
     """
     :type deck: List[int]
