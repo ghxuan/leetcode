@@ -1,5 +1,3 @@
-
-
 def maxRotateFunction(A):
     """
     :type A: List[int]
