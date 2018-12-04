@@ -1,4 +1,3 @@
-
 # Definition for a point.
 # class Point(object):
 #     def __init__(self, a=0, b=0):
