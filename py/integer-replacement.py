@@ -1,4 +1,3 @@
-
 def integerReplacement(n):
     """
     :type n: int
