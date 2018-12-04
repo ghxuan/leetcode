@@ -1,6 +1,4 @@
-<style type="text/css">
-tr nth-child(3) a{color:#000000;text-decoration:none;}
-</style>
+<style type="text/css">tr nth-child(3) a{color:#000000;text-decoration:none;}</style>
 # Leetcode
 
  号 | 题名 | 代码 | 博客
