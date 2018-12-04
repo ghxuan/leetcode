@@ -1,5 +1,3 @@
-
-
 def stoneGame(piles):
     """
     :type piles: List[int]
@@ -26,4 +24,3 @@ print(stoneGame([2, 2, 5, 11, 4, 1]))
 
 # True
 # True
-
