@@ -1,5 +1,3 @@
-
-
 def canMeasureWater(x, y, z):
     """
     :type x: int
@@ -35,4 +33,3 @@ def gcd(x, y):
 print(canMeasureWater(85, 34, 17))
 print(canMeasureWater(3, 5, 4))
 print(canMeasureWater(2, 6, 5))
-
