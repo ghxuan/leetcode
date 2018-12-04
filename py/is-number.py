@@ -1,6 +1,3 @@
-
-
-
 def isNumber(s):
     """
     :type s: str
@@ -37,4 +34,3 @@ print(isNumber('1 a'))
 # True
 # False
 # False
-
