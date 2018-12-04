@@ -1,4 +1,3 @@
-
 def countPrimes(n):
     """
     :type n: int
