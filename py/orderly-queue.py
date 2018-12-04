@@ -1,4 +1,3 @@
-
 def orderly_queue(s, k):
     """
     :type s: str
