@@ -1,5 +1,3 @@
-
-
 def lengthOfLongestSubstring(s):
     """
     :type s: str
@@ -21,4 +19,3 @@ print(lengthOfLongestSubstring('abcabcbb'))
 print(lengthOfLongestSubstring('bbbbb'))
 print(lengthOfLongestSubstring('pwwkew'))
 print(lengthOfLongestSubstring('pwwkeh'))
-
