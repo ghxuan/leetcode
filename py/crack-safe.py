@@ -1,4 +1,3 @@
-
 def crackSafe(n, k):
     """
     :type n: int
