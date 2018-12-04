@@ -1,4 +1,3 @@
-
 def reachNumber(target):
     """
     :type target: int
