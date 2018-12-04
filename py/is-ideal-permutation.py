@@ -1,4 +1,3 @@
-
 def isIdealPermutation(A):
     """
     :type A: List[int]
