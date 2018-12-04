@@ -1,5 +1,3 @@
-
-
 def selfDividingNumbers(left, right):
     """
     :type left: int
