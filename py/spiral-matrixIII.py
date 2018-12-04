@@ -1,5 +1,3 @@
-
-
 def spiralMatrixIII(R, C, r0, c0):
     """
     :type R: int
