@@ -1,4 +1,3 @@
-
 def calculate(s):
     """
     :type s: str
