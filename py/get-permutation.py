@@ -1,4 +1,3 @@
-
 def getPermutation(n, k):
     """
     :type n: int
