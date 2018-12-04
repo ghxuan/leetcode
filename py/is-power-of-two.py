@@ -1,4 +1,3 @@
-
 def isPowerOfTwo(n):
     """
     :type n: int
