@@ -1,4 +1,3 @@
-
 def flip_fights(n, m):
     """
     :type n: int
