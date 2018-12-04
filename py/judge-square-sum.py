@@ -1,6 +1,3 @@
-
-
-
 def judgeSquareSum(c):
     """
     :type c: int
@@ -25,4 +22,3 @@ print(judgeSquareSum(3))
 
 # True
 # False
-
