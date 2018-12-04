@@ -1,4 +1,3 @@
-
 def isSelfCrossing(x):
     """
     空间复杂度(Space Complexity)是对一个算法在运行过程中临时占用存储空间大小的量度，记做S(n)=O(f(n))。
