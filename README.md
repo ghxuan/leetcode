@@ -25,6 +25,7 @@
  914   |  卡牌分组 | [has-groups-size-x](https://github.com/ghxuan/leetcode/blob/master/py/has-groups-size-x.py) | [leetcode ： 卡牌分组](/) 
  883   |  三维形体投影面积 | [projection-area](https://github.com/ghxuan/leetcode/blob/master/py/projection-area.py) | [leetcode ： 三维形体投影面积](/) 
  507   |  完美数 | [check-perfect-number](https://github.com/ghxuan/leetcode/blob/master/py/check-perfect-number.py) | [leetcode ： 完美数](/) 
+ 415   |  字符串相加 | [add-strings](https://github.com/ghxuan/leetcode/blob/master/py/add-strings.py) | [leetcode ： 字符串相加](/) 
  368   |  最大整除子集 | [largest-divisible-subset](https://github.com/ghxuan/leetcode/blob/master/py/largest-divisible-subset.py) | [leetcode ： 最大整除子集](/) 
  633   |  平方数之和 | [judge-square-sum](https://github.com/ghxuan/leetcode/blob/master/py/judge-square-sum.py) | [leetcode ： 平方数之和](/) 
  598   |  范围求和 II | [max-count](https://github.com/ghxuan/leetcode/blob/master/py/max-count.py) | [leetcode ： 范围求和 II](/) 
