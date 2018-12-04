@@ -1,4 +1,3 @@
-
 def reachingPoints(sx, sy, tx, ty):
     """
     :type sx: int
