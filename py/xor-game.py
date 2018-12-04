@@ -1,4 +1,3 @@
-
 from functools import reduce
 
 
@@ -24,4 +23,4 @@ print(xorGame([]))
 # False
 # True
 # False
-# False 
+# False
