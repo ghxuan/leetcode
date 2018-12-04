@@ -1,4 +1,3 @@
-
 def fractionToDecimal(numerator, denominator):
     """
     :type numerator: int
