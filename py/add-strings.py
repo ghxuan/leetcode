@@ -1,4 +1,3 @@
-
 def add_strings(num1, num2):
     """
     :type num1: str
