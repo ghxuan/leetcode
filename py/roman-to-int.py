@@ -1,4 +1,3 @@
-
 def romanToInt(s):
     """
     :type s: str
