@@ -1,4 +1,3 @@
-
 def countDigitOne(n):
     """
     :type n: int
