@@ -1,4 +1,3 @@
-
 def trailingZeroes(n):
     """
     :type n: int
