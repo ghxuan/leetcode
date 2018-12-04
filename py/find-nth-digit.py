@@ -1,4 +1,3 @@
-
 def findNthDigit(n):
     """
     :type n: int
