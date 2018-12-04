@@ -1,6 +1,3 @@
-
-
-
 def superPow(a, b):
     """
     :type a: int
@@ -37,4 +34,3 @@ print(superPow(2, [1, 0, 0, 0, 0, 0, 0]))
 # 8
 # 1024
 # 562
-
