@@ -1,4 +1,3 @@
-
 def minMoves2(nums):
     """
     :type nums: List[int]
