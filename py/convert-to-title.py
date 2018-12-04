@@ -1,4 +1,3 @@
-
 def convertToTitle(n):
     """
     :type n: int
