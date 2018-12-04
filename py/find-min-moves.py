@@ -1,6 +1,3 @@
-
-
-
 def findMinMoves(machines):
     """
     :type machines: List[int]
@@ -44,4 +41,3 @@ print(findMinMoves([0, 8, 0, 0]))
 # 6.0 2.0 -2.0
 # 6.0 0.0 -2.0
 # 6
-
