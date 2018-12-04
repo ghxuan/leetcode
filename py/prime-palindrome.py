@@ -1,4 +1,3 @@
-
 def primePalindrome(N):
     """
     :type N: int
