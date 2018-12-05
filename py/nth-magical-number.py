@@ -1,4 +1,3 @@
-thon
 def nthMagicalNumber(n, a, b):
     """
     :type n: int
