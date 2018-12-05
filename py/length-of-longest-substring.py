@@ -19,3 +19,11 @@ print(lengthOfLongestSubstring('abcabcbb'))
 print(lengthOfLongestSubstring('bbbbb'))
 print(lengthOfLongestSubstring('pwwkew'))
 print(lengthOfLongestSubstring('pwwkeh'))
+ # abc
+ # 3
+ # b
+ # 1
+ # wke
+ # 3
+ # wkeh
+ # 4
