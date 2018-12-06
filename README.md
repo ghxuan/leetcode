@@ -2,6 +2,7 @@
 
  号 | 题名 | 代码 | 博客
  :-: | :-: | :-: | :-: 
+ [1](https://leetcode-cn.com/problems/two-sum/description/)   |  [两数之和](https://leetcode-cn.com/problems/two-sum/description/) | [two-sum](https://github.com/ghxuan/leetcode/blob/master/py/two-sum.py) | [leetcode ： 两数之和](http://106.12.221.202/2018/12/6/two-sum) 
  [2](https://leetcode-cn.com/problems/add-two-numbers/description/)   |  [两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/) | [add-two-numbers](https://github.com/ghxuan/leetcode/blob/master/py/add-two-numbers.py) | [leetcode ： 两数相加](http://106.12.221.202/2018/12/1/add-two-numbers) 
  [3](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/)   |  [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/) | [length-of-longest-substring](https://github.com/ghxuan/leetcode/blob/master/py/length-of-longest-substring.py) | [leetcode ： 无重复字符的最长子串](http://106.12.221.202/2018/9/3/length-of-longest-substring) 
  [7](https://leetcode-cn.com/problems/reverse-integer/description/)   |  [整数反转](https://leetcode-cn.com/problems/reverse-integer/description/) | [reverse](https://github.com/ghxuan/leetcode/blob/master/py/reverse.py) | [leetcode ： 整数反转](http://106.12.221.202/2018/10/25/reverse) 
