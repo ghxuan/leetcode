@@ -21,19 +21,17 @@ class Solution:
         res = ListNode(0)
         # 第一次对 next_ 的修改
         # 其实只是对 res 的修改
-        next_ = res
-        # 进位
-        temp = 0
-        while l1 or l2:
-            n1 = l1.val if l1 else 0
-            n2 = l2.val if l2 else 0
+        next_, temp = res, 0
+        while True:
+            n1, l1 = (l1.val, l1.next) if l1 else (0, None)
+            n2, l2 = (l2.val, l2.next) if l2 else (0, None)
             temp, next_.val = divmod(n1 + n2 + temp, 10)
-            next_.next = ListNode(0)
-            next_ = next_.next
-            # 假如长度不一样
-            l1 = l1.next if l1 else None
-            l2 = l2.next if l2 else None
-        return res
+            if l1 or l2 or temp:
+                next_.next = ListNode(0)
+                next_ = next_.next
+            else:
+                next_.next = None
+                return res
 
 
 def init(s):
