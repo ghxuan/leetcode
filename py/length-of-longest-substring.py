@@ -3,27 +3,39 @@ def lengthOfLongestSubstring(s):
     :type s: str
     :rtype: int
     """
-    longest_subs = longest_sub = ''
-    for i in s:
-        if i in longest_sub:
-            longest_sub = i
-        else:
-            longest_sub += i
-        if len(longest_sub) >= len(longest_subs):
-            longest_subs = longest_sub
-    print(longest_subs)
-    return len(longest_subs)
+    # left, res, temp, cur = -1, 0, 0, False
+    # dict_ = {}
+    # for index, string in enumerate(s):
+    #     if string in dict_ and dict_[string] >= left:
+    #         left = dict_[string]
+    #         temp = index - left
+    #         cur = False
+    #     else:
+    #         temp += 1
+    #         if cur or res < temp:
+    #             res = temp
+    #             cur = True
+    #     dict_[string] = index
+    # # print(dict_)
+    # return res
+
+    left, res, index = -1, 0, -1
+    dict_ = {}
+    for index, string in enumerate(s):
+        if string in dict_ and dict_[string] >= left:
+            res = max(res, index-left-1)
+            left = dict_[string]
+        dict_[string] = index
+    res = max(res, index - left)
+    # print(dict_)
+    return res
 
 
 print(lengthOfLongestSubstring('abcabcbb'))
 print(lengthOfLongestSubstring('bbbbb'))
 print(lengthOfLongestSubstring('pwwkew'))
 print(lengthOfLongestSubstring('pwwkeh'))
- # abc
- # 3
- # b
- # 1
- # wke
- # 3
- # wkeh
- # 4
+# 3
+# 1
+# 3
+# 4
