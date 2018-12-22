@@ -34,11 +34,33 @@ def find(nums1, nums2, k):
         return find(nums1[i:], nums2, k - i)
 
 
+def find_median_sorted_arrays2(nums1, nums2):
+    """
+    :type nums1: List[int]
+    :type nums2: List[int]
+    :rtype: float
+    """
+    nums = nums1 + nums2
+    nums.sort()
+    temp, cur = divmod(len(nums), 2)
+    if cur:
+        return nums[temp]
+    return (nums[temp - 1] + nums[temp]) / 2.0
+
+
 print(find_median_sorted_arrays([1, 3], [2]))
+print(find_median_sorted_arrays2([1, 3], [2]))
 print(find_median_sorted_arrays([1, 2], [3, 4]))
+print(find_median_sorted_arrays2([1, 2], [3, 4]))
 print(find_median_sorted_arrays([1, 2, 5, 6], [3, 4]))
+print(find_median_sorted_arrays2([1, 2, 5, 6], [3, 4]))
 print(find_median_sorted_arrays([1, 3, 5, 6], [2, 4, 7, 8]))
+print(find_median_sorted_arrays2([1, 3, 5, 6], [2, 4, 7, 8]))
+# 2
 # 2
 # 2.5
+# 2.5
 # 3.5
+# 3.5
+# 4.5
 # 4.5
