@@ -1,6 +1,5 @@
 # Leetcode
 
-
  号 | 题名 | 代码 | 博客
  :-: | :-: | :-: | :-: 
  [1](https://leetcode-cn.com/problems/two-sum/description/)   |  [两数之和](https://leetcode-cn.com/problems/two-sum/description/) | [two-sum](https://github.com/ghxuan/leetcode/blob/master/py/two-sum.py) | [leetcode ： 两数之和](https://www.ghxuan.top/2018/12/6/two-sum) 
