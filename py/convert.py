@@ -1,25 +1,22 @@
-from functools import reduce
-
-
 def convert(s, num_rows):
     """
     :type s: str
     :type num_rows: int
     :rtype: str
     """
-    new = [''] * num_rows
-    temp = 0
-    # 因为无论如何第一次 not temp 的时候肯定会判断，
-    # 然而后面需要是递增的，
-    # 所以 add 初始值为 -1
-    add = -1
-    for j in s:
-        new[temp] += j
+    if num_rows == 1 or num_rows >= len(s):
+        return s
+    res = [''] * num_rows
+    temp, add, cur = 0, 0, num_rows - 1
+    for sting in s:
+        res[temp] += sting
         # 每到一次头就要转一次向
-        if not temp or temp == num_rows - 1:
-            add *= -1
+        if temp == 0:
+            add = 1
+        elif temp == cur:
+            add = -1
         temp += add
-    return reduce(lambda x, y: x + y, new)
+    return ''.join(res)
 
 
 print(convert('LEETCODEISHIRING', 3))
