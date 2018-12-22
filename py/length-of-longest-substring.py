@@ -1,4 +1,4 @@
-def lengthOfLongestSubstring(s):
+def length_of_longest_substring(s):
     """
     :type s: str
     :rtype: int
@@ -31,10 +31,10 @@ def lengthOfLongestSubstring(s):
     return res
 
 
-print(lengthOfLongestSubstring('abcabcbb'))
-print(lengthOfLongestSubstring('bbbbb'))
-print(lengthOfLongestSubstring('pwwkew'))
-print(lengthOfLongestSubstring('pwwkeh'))
+print(length_of_longest_substring('abcabcbb'))
+print(length_of_longest_substring('bbbbb'))
+print(length_of_longest_substring('pwwkew'))
+print(length_of_longest_substring('pwwkeh'))
 # 3
 # 1
 # 3
