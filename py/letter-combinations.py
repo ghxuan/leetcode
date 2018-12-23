@@ -3,18 +3,19 @@ def letter_combinations(digits):
     :type digits: str
     :rtype: List[str]
     """
+    if not digits:
+        return []
     digits_dict = {
         '2': 'abc', '3': 'def', '4': 'ghi',
         '5': 'jkl', '6': 'mno', '7': 'pqrs',
         '8': 'tuv', '9': 'wxyz',
     }
-    res = list(digits_dict[digits[0]])
-    for i in digits[1:]:
-        temp1 = len(digits_dict[i]) * res
-        temp2 = list(digits_dict[i]) * len(res)
-        # res = [n+temp2[m] for m, n in enumerate(temp1)]
-        # map 是个好东西， 比 for 循环快
-        res = list(map(lambda x, y: x + y, temp1, temp2))
+    res = digits_dict[digits[0]]
+    for digit in digits[1:]:
+        # temp1 = len(digits_dict[digit]) * res
+        # temp2 = sorted(digits_dict[digit] * len(res))
+        # res = list(map(lambda x, y: x + y, temp1, temp2))
+        res = [one + two for one in res for two in digits_dict[digit]]
     return res
 
 
