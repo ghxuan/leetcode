@@ -47,15 +47,19 @@ class Solution:
         :type n: int
         :rtype: ListNode
         """
-        temp = head
-        cur = head
-        # cur 比 temp 先行 n 次
-        for _ in range(n):
-            cur = cur.next
+        temp = cur = head
+        count = 0
+
         while cur.next:
             cur = cur.next
-            temp = temp.next
-        temp.next = temp.next.next
+            count += 1
+            if count > n:
+                temp = temp.next
+
+        if count >= n:
+            temp.next = temp.next.next
+        else:
+            head = temp.next
         return head
 
 
