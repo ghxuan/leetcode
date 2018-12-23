@@ -1,31 +1,25 @@
-from itertools import combinations
-
-
 def three_sum(nums):
     """
     :type nums: List[int]
     :rtype: List[List[int]]
     """
-    nums = sorted(nums)
-    nums_ = nums[::-1]
-    res = []
-    count = nums.count(0)
-    minus = nums[:nums.index(0)]
-    plus = nums_[:nums_.index(0)]
-    if count >= 1:
-        for i in set(plus):
-            if -i in minus:
-                res.append([0, i, -i])
-        if count >= 3:
-            res.append([0] * 3)
-    for i in combinations(plus, 2):
-        if -sum(i) in minus:
-            res.append(list(i)+[-sum(i)])
-    for i in combinations(minus, 2):
-        if -sum(i) in plus:
-            res.append(list(i)+[-sum(i)])
-    # print(minus)
-    # print(plus)
+    nums.sort()
+    res, minus, plus, count = [], [], [], {}
+    for num in nums:
+        count[num] = count.get(num, 0) + 1
+        if num < 0:
+            minus.append(num)
+        else:
+            plus.append(num)
+    m, p = set(minus), set(plus)
+
+    if 0 in count and count[0] >= 3:
+        res.append([0, 0, 0])
+    for i in m:
+        for j in p:
+            temp = -i - j
+            if temp in count and (temp < i or temp > j or (temp in {i, j} and count[temp] > 1)):
+                res.append([i, j, temp])
     return res
 
 
