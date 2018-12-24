@@ -4,22 +4,19 @@ def is_valid(s):
     :rtype: bool
     """
     # 优先匹配最后一个 key
-    dic = {'(': ')', '[': ']', '{': '}'}
-    key = list(dic.keys())
+    dict_ = {'(': ')', '[': ']', '{': '}'}
     temp = []
-    for i in s:
-        if i in key:
-            temp.append(i)
-        elif dic[temp[-1]] != i:
+    for char in s:
+        if char in dict_:
+            temp.append(char)
+        elif not temp or dict_[temp.pop()] != char:
             return False
-        else:
-            temp.pop()
-    return True
+    return not temp
 
 
 print(is_valid('()'))
 print(is_valid('()[]{}'))
-print(is_valid('(]'))
+print(is_valid(')]'))
 print(is_valid('([)]'))
 print(is_valid('{[]}'))
 # True
