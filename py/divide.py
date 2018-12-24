@@ -5,15 +5,12 @@ def divide(dividend, divisor):
     :rtype: int
     """
     int_max, int_min = 2147483647, -2147483648
-    sign = 1
+    sign, res = 0, 0
     if 0 in [dividend, divisor]:
         return 0
     elif dividend < 0 < divisor or divisor < 0 < dividend:
         sign = -1
-        dividend, divisor = abs(dividend), abs(divisor)
-    else:
-        dividend, divisor = abs(dividend), abs(divisor)
-    res = 0
+    dividend, divisor = abs(dividend), abs(divisor)
     while dividend >= divisor:
         tmp, val = divisor, 1
         while dividend >= tmp:
@@ -21,10 +18,10 @@ def divide(dividend, divisor):
             dividend -= tmp
             tmp += tmp
             val += val
-    if sign == 1:
-        return min(int_max, res)
+    if sign:
+        return max(int_min, -res)
     else:
-        return max(int_min, 0 - res)
+        return min(int_max, res)
 
 
 print(divide(10, 3))
