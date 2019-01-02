@@ -4,10 +4,11 @@ def remove_element(nums, val):
     :type val: int
     :rtype: int
     """
-    res = len(nums)
-    for i in nums:
-        if i == val:
-            res -= 1
+    res = 0
+    for index, num in enumerate(nums):
+        if num != val:
+            nums[res] = nums[index]
+            res += 1
     return res
 
 
