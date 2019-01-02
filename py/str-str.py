@@ -4,14 +4,7 @@ def str_str(haystack, needle):
     :type needle: str
     :rtype: int
     """
-    if not needle:
-        return 0
-    n = len(needle)
-    for i, j in enumerate(haystack):
-        if j == needle[0]:
-            if haystack[i+1:i+n] == needle[1:]:
-                return i
-    return -1
+    return haystack.index(needle) if needle in haystack else -1
 
 
 print(str_str('hello', 'll'))
