@@ -7,7 +7,7 @@ def isNumber(s):
     if ' ' in s:
         return False
     if 'e' in s:
-        strings = s.split('e')
+        strings = s.split('e', 1)
         try:
             float(strings[0])
             int(strings[1])
